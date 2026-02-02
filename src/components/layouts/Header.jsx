@@ -7,12 +7,12 @@ const Header = () => {
   return (
     <div className="bg-[#202020] py-5">
       <Container>
-        <div className="flex justify-between">
+        <div className="flex items-center justify-between">
           <div className="">
             <Images srcImg={logo} />
           </div>
           <nav>
-            <ul className="flex gap-x-6.25">
+            <ul className="flex gap-x-10 text-white text-sm font-medium font-montserrat">
               <li>
                 <a href="#">Home</a>
               </li>
