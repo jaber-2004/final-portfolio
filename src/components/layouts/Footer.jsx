@@ -3,6 +3,8 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import ScrollToTop from "react-scroll-to-top";
+import { GrLinkTop } from "react-icons/gr";
 
 const Footer = () => {
   const form = useRef();
@@ -10,7 +12,7 @@ const Footer = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_3iwghku", "gj4o73e", form.current, {
+      .sendForm("service_22n2f6a", "template_4dlh5cf", form.current, {
         publicKey: "96VcsuELGflgAzir_",
       })
       .then(
@@ -23,7 +25,7 @@ const Footer = () => {
       );
   };
   return (
-    <section className="mt-30 mb-10">
+    <section className="mt-30 mb-10" id="contant">
       <Container>
         <div className="flex justify-between">
           <div className="">
@@ -99,6 +101,14 @@ const Footer = () => {
           </div>
         </div>
       </Container>
+      <div>
+        <div />
+        <ScrollToTop
+          smooth
+          top={400}
+          className="!bg-green-400 !p-5 !h-20 !w-20 !flex items-center justify-center !rounded-full"
+        />
+      </div>
     </section>
   );
 };

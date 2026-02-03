@@ -14,7 +14,7 @@ const Header = () => {
           <nav>
             <ul className="flex gap-x-10 text-white text-sm font-medium font-montserrat">
               <li>
-                <a href="*">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>
@@ -23,7 +23,7 @@ const Header = () => {
                 <a href="#projects">Portfolio</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contant">Contact</a>
               </li>
             </ul>
           </nav>
