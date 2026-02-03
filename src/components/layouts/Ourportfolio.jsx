@@ -9,17 +9,14 @@ import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="py-23.75 bg-[#202020] lg:w-full w-[395px]"
-    >
+    <section id="projects" className="py-23.75 bg-[#202020] lg:w-full w-95.75">
       <Container className={"w-90 lg:w-295"}>
         <div className="text-center mx-auto">
-          <h3 className="text-[24px] text-white font-semibold font-montserrat">
+          <h3 className="text-white text-[29px] font-russo">
             My Work & Projects
           </h3>
-          <div className="h-1 w-10 bg-white relative text-center mx-auto -left-24 mt-2">
-            <div className="h-px w-60 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
+          <div className="h-1 w-10 bg-white relative text-center mx-auto -left-30 mt-2">
+            <div className="h-px w-73 bg-white absolute left-0 top-1/2 -translate-y-1/2"></div>
           </div>
           <p className="text-[#90A1B9] text-[15px] pt-6">
             Here are some of the projects I have built using React and Tailwind

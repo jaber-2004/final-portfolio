@@ -14,8 +14,8 @@ const About = () => {
           <div className="">
             <Images srcImg={aboutImg} />
           </div>
-          <div className="text-[#202020] text-[29px] font-russo">
-            <h3>About Us</h3>
+          <div className="">
+            <h3 className="text-[#202020] text-[29px] font-russo">About Us</h3>
             <div className="h-1 w-10 bg-[#202020] relative">
               <div className="h-px w-50 bg-[#202020] absolute left-0 top-1/2 -translate-y-1/2"></div>
             </div>

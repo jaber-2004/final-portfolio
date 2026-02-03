@@ -1,6 +1,7 @@
 
 import About from '../layouts/About'
 import Banner from '../layouts/Banner'
+import Footer from '../layouts/Footer';
 import Header from '../layouts/Header'
 import Ourportfolio from "../layouts/Ourportfolio";
 
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner/>
       <About/>
       <Ourportfolio/>
+      <Footer/>
     </div>
   )
 }
