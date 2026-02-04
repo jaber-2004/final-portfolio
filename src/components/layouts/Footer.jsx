@@ -25,9 +25,9 @@ const Footer = () => {
       );
   };
   return (
-    <section className="mt-30 mb-10" id="contant">
+    <section className=" mx-3 md:mx-0 mt-30 mb-10" id="contant">
       <Container>
-        <div className="flex justify-between">
+        <div className="flex flex-col md:flex-row gap-y-10 justify-between">
           <div className="">
             <h3 className="text-[#202020] text-[29px] font-russo">
               Get In Tuch
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           <div className="">
             <form ref={form} onSubmit={sendEmail}>
-              <div className="pb-5 flex gap-x-4 text-[#777777] text-[13px] font-light font-montserrat">
+              <div className="pb-5 flex flex-col md:flex-row gap-4 text-[#777777] text-[13px] font-light font-montserrat">
                 <input
                   type="text"
                   name="user_name"
@@ -88,7 +88,7 @@ const Footer = () => {
                 <textarea
                   name="message"
                   placeholder="Message Here*"
-                  className="h-22 border border-[#DDDDDD] p-3 text-[#777777] text-[13px] font-light font-montserrat"
+                  className="h-22 w-76 md:w-full border border-[#DDDDDD] p-3 text-[#777777] text-[13px] font-light font-montserrat"
                 />
                 <input
                   type="submit"
@@ -101,7 +101,7 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-      <div>
+      <div className="hidden md:block">
         <div />
         <ScrollToTop
           smooth
