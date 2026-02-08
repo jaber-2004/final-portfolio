@@ -41,19 +41,19 @@ const About = () => {
                 Share :
               </h4>
               <div className="flex gap-x-4">
-                <a href="https://www.facebook.com/thejaberbd" target="_blank">
+                <a href="https://www.facebook.com/mdjaberdev" target="_blank">
                   <FaFacebookF />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/thejaberbd/"
+                  href="https://www.linkedin.com/in/mdjaberdev/"
                   target="_blank"
                 >
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.instagram.com/thejaberbd/" target="_blank">
+                <a href="https://www.instagram.com/mdjaberdev/" target="_blank">
                   <FaInstagram />
                 </a>
-                <a href="https://github.com/jaber-2004" target="_blank">
+                <a href="https://github.com/mdjaberdev" target="_blank">
                   <VscGithub />
                 </a>
               </div>
